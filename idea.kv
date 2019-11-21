@@ -1,0 +1,35 @@
+<Menu1>:
+	canvas:
+		Color:
+			rgba: 1., 1., 1., 1
+		Rectangle:
+			size: self.size
+
+
+	TextInput:
+		size_hint: None, None
+		size: 500, 75
+		pos: root.width/2 - self.width/2, root.height - self.height*2
+		background_normal: 'C:/dev/gas-price/images/TelaLogin/backgroundTI2.png'
+		background_active: 'C:/dev/gas-price/images/TelaLogin/backgroundTI3.png'
+		hint_text: 'What problem do you want to solve today?'
+
+	Label:
+		text: 'Problems'
+		size_hint: None, None
+		font_size: '15dp'
+		pos: root.width/5, root.height/2
+		color: 0.,0.,0.,1
+
+	Label:
+		text: 'Ideas'
+		size_hint: None, None
+		font_size: '15dp'
+		pos: root.width*3.5/5, root.height/2
+		color: 0.,0.,0.,1
+
+	Button:
+		text: 'I hate missing the bus in the morning, do a lot of people have the same problem as me?'
+		size_hint: None, None
+		center_x: root.width/5
+		pos: root.width/5, root.height*0.35
